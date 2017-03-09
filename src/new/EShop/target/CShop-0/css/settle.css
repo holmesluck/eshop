@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+#yxx-settle{
+	border:1px solid #ccc;
+	box-shadow:5px 5px 10px #ccc;
+	width:1000px;
+	height:250px;
+	color:red;
+	text-align:center;
+	font-size:36px;
+	line-height:250px;}
+	
+#yxx-settleHead{
+	height:55px;
+	width:860px;
+	margin:auto;
+}
+
+#yxx-settleHead img{
+	width:110px;
+	height:45px;}

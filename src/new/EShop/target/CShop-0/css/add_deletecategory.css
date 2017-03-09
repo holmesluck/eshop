@@ -1,0 +1,64 @@
+/* CSS Document */
+
+#yxx-category{
+width:898px;
+margin:auto;
+border:1px solid #ccc;
+box-shadow:5px 5px 10px #ccc;}
+
+#yxx-categoryListname,#yxx-categoryAddname{
+height:45px;
+background:#000;
+color:#fff;
+text-align:left;
+text-indent:20px;
+font-size:20px;
+line-height:45px;}
+
+.yxx-categoryList tr{
+text-align:center;
+height:40px;
+line-height:30px;}
+
+.yxx-categoryList th{
+background:#666666;
+height:35px;
+line-height:35px;
+font-size:24px;
+color:#fff;}
+
+.yxx-categoryName{
+width:154px;
+overflow:hidden;
+text-overflow:hidden;
+word-break:break-all;
+padding:0 2px;
+}
+
+.yxx-categoryName:hover{
+white-space:normal;
+background:#999;
+}
+
+.yxx-categoryModify{
+width:35px;}
+
+.yxx-categoryDelete{
+width:35px;
+}
+
+#yxx-categoryAddbuttom{
+margin:2px 10px 6px 700px;}
+
+#yxx-categoryAdd{
+margin-left:100px;
+margin-top:40px;}
+
+#yxx-categorySubmit{
+margin:20px 0 20px 150px;
+}
+
+.yxx-categoryList table{
+	float:left;
+}
+

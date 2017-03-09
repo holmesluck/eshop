@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+#hwd-settlement-swapper{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+#hwd-settlementAddress-wrapper{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+#yxx-settlementHead{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/settlement/goodsList.png);}
+#yxx-settlementAddressHead{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/settlement/DeliveryAddress.png);}
+#hwd-address{width: 900px;margin: 0 auto;}
+#hwd-address-table th{color: #ffd200;text-align: center;}
+#hwd-address-table td{border: 0;text-align: left;}
+#hwd-addAddress-submit{border: 0;padding: 0;width: 71px;height: 29px;background: url(../resources/button-confirm.png);}
+#hwd-changeAddress-submit{border: 0;padding: 0;width: 71px;height: 29px;background: url(../resources/button-finish.png);}
+#hwd-settlement-addAddress{border: 0;padding:0; float: right;margin:8px 30px 0 0;width: 78px;height: 29px;background: url(../resources/settlement/button-addAddress.png);}
+#hwd-address-table .yxx-settlementModify{border: 0;padding: 0;width: 71px;height: 29px;background: url(../resources/settlement/button-modification.png); }
+#yxx-settlementSubmit .yxx-settlementSubmit{border: 0;padding: 0;width: 99px;height: 36px;margin-right: 10px; background: url(../resources/settlement/button-SubmitOrder.png);}
+#yxx-settlementSubmit .yxx-settlementBack{border: 0;padding: 0;width: 102px;height: 36px;background: url(../resources/settlement/button-returnCart.png);}
+#yxx-settlementHead img{
+	width:110px;
+	height:45px;}
+
+#yxx-settlementContainer{
+width:900px;
+margin:auto;
+}
+
+#yxx-settlementGoods th{
+	width:123px;
+	height:40px;
+	text-align:center;}
+
+#yxx-settlementGoods td{
+	width:123px;
+	height:70px;
+	text-align:center;}
+	
+#yxx-settlementGoodsAccount{
+	/*border-bottom:1px solid #000;*/
+	font-size:24px;
+	line-height:40px;}
+
+#yxx-settlementGoodsTotal{
+	padding-right:10px;
+	text-align:right;
+	width:500px;
+	float:right;}
+	
+/*#yxx-settlementGoodsHead,#yxx-settlementAddressHead{
+	text-indent:20px;
+	height:30px;
+	background:#ccc;
+	color:#FFF;
+	font-size:20px;
+	line-height:30px;}
+*/
+/*#yxx-settlementAddressHead{
+margin:30px 0px;}
+	*/
+.yxx-settlementButton{
+	float:right;
+	height:26px;
+	margin:2px 20px 1px 0;
+	padding:0 10px;
+	border-radius:5px;}
+	
+.yxx-settlementAddress td{
+	height:50px;}
+	
+#yxx-settlementSubmit{
+	margin-top:30px;
+	text-align:center;}
+	
+.yxx-settlementSubmit{
+	height:40px;
+	border-radius:5px;
+	padding:2px 20px;}
+
+.yxx-settlementLeftAddress{
+width:150px;
+text-align:right;
+padding-right:80px;}
+
+.yxx-settlementRightAddress{
+padding-top:5px;
+text-align:left;}
+
+.yxx-settlementaddressed{
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;}
+
+#yxx-settlementBlock1 tr{
+	height:40px;
+}
+
+#yxx-settlementTable2{
+	
+}
+
+.yxx-radio{
+	text-align:right;
+}
+
+.yxx-address{
+	padding-top:5px;
+	text-indent:30px;
+
+}
+
+#yxx-settlementQueren{
+	margin-left:300px;
+	width:300px;
+	margin-top:20px;
+}
+
+#yxx-settlementModifyButtom{
+	margin-left:300px;
+}
+
+/*.yxx-settlementBack{
+	float:left;
+	margin-top:50px;
+}*/

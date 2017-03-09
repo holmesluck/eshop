@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+<!--goodsquicksearch and goodsadvancesearch 页面的 main 块内的样式 张羊左-->
+#goodslist{}
+#advanceselection{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+#advanceselection-header{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/advancedSearch/selectgoods.png);}
+.selection{height:20px;padding: 12px 0;border-bottom: 1px dotted #554b22;margin: 0 20px;position: relative;}
+.artical{position: absolute; width:113px;height:20px;text-align:right;color: #ffd200;}
+.formboxWrapper{position: absolute;left: 120px;height: 20px;}
+.formbox{height:20px;float:left;text-align:left;margin-left: 47px;color: #ababab;}
+.formbox label{height:20px;float:left;text-align:left;margin-left: 4px;line-height:20px;}
+.box{width:20px;float:left;text-align:center;}
+#searchinfo{width: 947px;margin: 0 auto;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat; }
+#zyz-orderbtn{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/advancedSearch/sort.png);}
+#zyz-orderbtn-wrapper{padding: 8px 0 0 97px;}
+#zyz-orderbtn-buttonGroup{}
+#sales{border: 0;padding: 0; float: left; width: 59px;height: 28px; background: url(../resources/advancedSearch/SalesVolume1.png);margin-right: 6px;}
+#price{border: 0;padding: 0; float: left; width: 59px;height: 28px; background: url(../resources/advancedSearch/price1.png);}
+#ackbutton{width:182px;height:30px; margin: 4px auto;text-align: left;}
+#submitresult{border: 0; padding: 0; width: 71px;height: 29px;margin-right: 36px;background: url(../resources/advancedSearch/button_search.png) no-repeat;}
+#hwd-search-reset{border: 0; width: 71px;height: 29px;background: url(../resources/advancedSearch/button_reset.png) no-repeat;}
+#submitall{margin: 20px auto 30px; width: 924px;height: 40px;}
+#zyz-more,#zyz-more2{border: 0;padding: 0; width: 924px;height: 40px;background: url(../resources/advancedSearch/ConvexMore.png) no-repeat;}
+.goods{float: left;width: 280px;height: 430px;margin: 10px 20px 0 10px;}
+#hwd-advancesearch-form{margin: 0;}
+#zyz-searchresult{padding: 10px 0  14px;}
+.hwd-goods-info{}
+.hwd-goods-info span{padding-right: 10px;}
+.goodsname{text-align:center; padding: 0;font-weight: bold;}
+/* .hwd-goodsPrice{color: red;} */
+#zyz-searchresult .addshoppingcart{padding: 0; border: 0;width: 101px;height: 29px;background: url(../resources/advancedSearch/botton-addToCart.png) no-repeat;margin-right: 20px;}
+#zyz-searchresult .addcollection{padding: 0; border: 0;width: 69px;height: 29px;background: url(../resources/advancedSearch/botton-collect.png) no-repeat;}
+/*
+#btnsize
+{
+margin-top:20px;
+ width:auto;
+ height:auto;
+}
+#btnpostion
+{
+margin:auto;
+text-align:center;
+float:left;
+}
+.goods
+{
+float:left;
+width:300px;
+height:420px;
+margin:10px;
+border:1px solid #aaa;
+}
+.photo
+{
+width:250px;
+text-align:center;
+height:188px;
+}
+.goodsdata
+{
+	font-size:12px;
+width:300px;
+float:left;
+}
+.textposition
+{
+width:120px;
+height:auto;
+float:left;
+margin:8px;
+padding:0px;
+text-align:left;
+}
+.btnposition2
+{
+margin:4px;
+text-align:center;
+width:30px;
+height:30px;
+flaot:left;
+}
+#zyz-more
+{
+	margin:50px 0;
+
+}
+.btngroup
+{
+   float:left;
+   margin-left:40px;
+   padding-right:40px;	
+}
+.goodsname
+{
+	height:20px;
+	text-align:center;
+	background:#aeaeae;
+}
+#xinghao
+{
+	width:auto;
+}*/

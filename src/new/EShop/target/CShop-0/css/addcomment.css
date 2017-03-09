@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+#commentframe
+{
+ width:800px;
+ height;auto;
+ border:thick;
+}
+#commentarea
+{
+width:auto;
+height:auto;
+margin:5px;
+padding:5px;
+float:none;
+border:1px solid #00CCFF;
+}
+#photo
+{
+width:auto;
+text-align:left;
+height:auto;
+margin:10px;
+float:left;
+}
+#commentposition
+{
+width:600px;
+height:auto;
+margin:5px;
+padding:5px;
+float:right;
+}
+#mark
+{
+width:160px;
+height:40px;
+margin:5px;
+padding:5px;
+}
+#comment
+{
+width:160px;
+height:auto;
+margin:5px;
+padding:5px;
+}
+#submitall
+{
+ width:100px;
+ height:10px;
+ margin-left:10px;
+}
+#ackbutton
+{
+width:800px;
+height:50px;
+margin:10px;
+float:left;
+text-align:center;
+}

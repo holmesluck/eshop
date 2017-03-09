@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+/*
+ *主页模块的样式表
+ *@author 黄伟铎
+*/
+#hwd-sidebar{float: left; width: 236px;border: 2px solid #665619;border-radius: 4px;background: url(../resources/images/sidebar.png) repeat;}
+#hwd-goodsDirectory{width: 208px;height: 40px;margin: 10px auto;background: url(../resources/images/goodsDirectory.png) no-repeat; text-indent: -1000em;}
+#hwd-slide img{width: 744px; height: 285px;}
+#hwd-category{padding: 0 10px 20px 10px;}
+.FiCatalogGoods{line-height: 20px;margin: 0;}
+.FiCatalogGoods a{color: #ffd200;font-size: 18px;}
+.FiCatalogGoods a:hover{color: #ffd200;}
+.hwd-SeCatalogGoods-list{list-style: none;}
+#hwd-content{width: 728px;margin: 0 0 0 24px; float: right;}
+#hwd-display{border: 2px solid #665619;border-radius: 4px;background: url(../resources/images/sidebar.png) repeat; padding: 0 0 20px 0;}
+.hwd-computerDisplay{float: left; width: 220px;height: 210px;margin: 10px 10px 0 10px;}
+.hwd-computerDisplay-wrapper{padding: 5px;position:relative;}
+.hwd-computerDisplay-header{color: #ededed;font-size: 12px;text-align: center;margin-top: 5px;font-weight: bold;}
+/*.hwd-computerDisplay-footer{color: #ededed;font-size: 12px;}*/
+.hwd-computerDisplay-img{width: 210px;height: 157px;position: relative;}
+.hwd-computerDisplay-price{position: absolute;bottom: 0;right: 5px;font-size: 22px;line-height: 30px;font-weight: bold;color: #e33;}
+
+#hwd-display-header{font-size: 18px;color: #ffd200;font-weight: bolder;margin: 10px 0 0 20px;}

@@ -1,0 +1,11 @@
+yp.action
+yp.dao
+yp.dao.impl
+yp.exception
+yp.exception.impl
+yp.interceptor
+yp.model
+yp.model.view
+yp.service
+yp.service.impl
+yp.util

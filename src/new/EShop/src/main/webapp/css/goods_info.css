@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+<!--goods_info页面的 main 块内的样式 张羊左-->
+.hwd-sendnote{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+.hwd-sendnote-wrapper{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+#sendnotehead{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/advancedSearch/selectgoods.png);}
+#sendnotehead2{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/advancedSearch/selectgoods.png);}
+#sendnotehead3{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/advancedSearch/ProductDetails.png);}
+.star1{width: 142px;height: 21px;background: url(../resources/advancedSearch/star1.png) no-repeat;}
+.star2{width: 142px;height: 21px;background: url(../resources/advancedSearch/star2.png) no-repeat;}
+.star3{width: 142px;height: 21px;background: url(../resources/advancedSearch/star3.png) no-repeat;}
+.star4{width: 142px;height: 21px;background: url(../resources/advancedSearch/star4.png) no-repeat;}
+.star5{width: 142px;height: 21px;background: url(../resources/advancedSearch/star5.png) no-repeat;}
+ .addshoppingcart{padding: 0; border: 0;width: 101px;height: 29px;background: url(../resources/advancedSearch/botton-addToCart.png) no-repeat;margin-right: 20px;}
+ .addcollection{padding: 0; border: 0;width: 69px;height: 29px;background: url(../resources/advancedSearch/botton-collect.png) no-repeat;}
+.odd{
+	text-align:right;
+}
+.even{
+	text-align:left;
+}
+#introduce .addshoppingcart1{padding: 0; border: 0;width: 101px;height: 29px;background: url(../resources/advancedSearch/botton-addToCart.png) no-repeat;margin-right: 20px;}
+#introduce .addcollection1{padding: 0; border: 0;width: 69px;height: 29px;background: url(../resources/advancedSearch/botton-collect.png) no-repeat;}

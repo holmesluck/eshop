@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+.yxx-favoriteContainer{
+	width:280px;
+	height:430px;
+	float:left;
+	margin:10px 20px 0 10px;
+	/*text-align:center;*/
+	/* border:1px solid #000; */
+	}
+	
+.yxx-button{
+	border-radius:5px;
+    -moz-border-radius:5px;
+	padding:3px 10px;
+	box-shadow:0;
+	}
+	
+.yxx-button:hover{
+	background:#CCC;}
+	
+.yxx-favoriteComputername{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	width:200px;
+	margin-left:25px;
+	text-align:center}
+	
+.yxx-favoriteComputername:hover{
+	overflow:visible;}
+	
+/*.yxx-favoriteMoreInfo{
+	width:847px;
+	height:50px;
+	background:#ccc;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	margin-left:63px;}
+	*/
+/*#yxx-favoriteContent{
+	width:872px;
+	margin:auto;
+	padding-bottom:30px;
+	border:1px solid #ccc;
+	box-shadow:5px 5px 10px #ccc;
+	overflow:hidden;
+}*/
+
+.yxx-favoriteLeftcontent{
+}
+
+.yxx-favoriteRightcontent{
+	/*height:100px;*/
+	/*margin-top:10px;*/
+	/*padding-top:10px;*/
+	/*background:#ccc;*/
+}
+
+#yxx-favoriteHead{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;	
+	/*margin:auto;
+	height:55px;
+	width:830px;*/
+}
+#yxx-favoriteContent .yxx-favoriteAdd{border: 0;padding: 0; width: 101px;height: 29px;background: url(../resources/advancedSearch/botton-addToCart.png) no-repeat;}
+#yxx-favoriteContent .yxx-favoriteDelete{border: 0;padding: 0; width: 71px;height: 29px;background: url(../resources/delete2.png) no-repeat;}
+#yxx-favoriteHead .yxx-favoriteMoreInfo{display: block;margin: 0 auto; border: 0;padding: 0; width: 924px;height: 40px;background: url(../resources/advancedSearch/ConvexMore.png) no-repeat;}
+#hwd-favoriteHead-header{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/favorite/Favorites.png);}
+/*#yxx-favoriteHead img{
+	width:110px;
+	height:45px;}*/
+	
+#yxx-favoriteNonecontent{
+	height:200px;
+	color:red;
+	font-size:36px;
+	font-weight:bold;
+	text-align:center;
+	line-height:200px;
+}

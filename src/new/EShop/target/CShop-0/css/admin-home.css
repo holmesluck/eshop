@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+a{color: #555;}
+a:hover{color:#121221;text-decoration: none;}
+html,body{height:100%;}
+body{background-color: #666;font-size: 14px;background:#fff url(../image/fancy_deboss.png) repeat-y;}
+#wrapper{width: 1000px;margin: 0 auto;background:#fff;min-height: 100%;position: relative;margin-top: 0px;}
+#navbar{background:url(../resources/backnav.png);width:860px;height:90px;margin:0 auto}
+#site-nav{width:860px; line-height:0;height: 16px;background: #ccc;border-bottom: 1px solid #999;z-index: 10000; margin:auto;}
+#site-nav-wrap{width: 860px;margin: 0 auto;background:url(../resources/backnav.png);}
+#site-nav-wrap li{float: right;list-style: none;padding: 0px 4px;margin:0px 5px 0 0;}
+#site-nav-wrap a{text-decoration: none;color: #fff;}
+#site-nav-wrap a:hover{color: #000;}
+#header {height: 66px;background: #666;}
+#sendnotehead{background:url(../resources/smallbacknav.png);}
+#main{padding-bottom: 140px;width:800px;margin:0 auto;}
+#left{float: left;width:159px;padding: 10px 10px 10px 20px;border: 1px solid #888;}
+#right{float: left;width: 780px;padding: 4px 0 0 20px;}
+#input-append,#searchrightcategory{display: inline;}
+#right img{width: 90px;height: 120px;}
+#recommend,#new,#life{margin-top: 40px;}
+#recommend li,#new li,#life li{float: left; margin-right: 20px;width: 118px; text-align: center;list-style: none;}
+/*#bottom{position: absolute;bottom: 0; font-size: 12px;line-height: 40px;width: 100%;text-align: center;}*/
+.must{color: #f00;padding-right: 4px;font-style: normal; line-height: 10px;font-family: "SimSun";}
+/*<em class="must">*</em>*/
+/*.modal{width: 450px;}*/
+#bottom{
+	text-align:center;
+	line-height:40px;
+}
+
+.contents{float: left;width: 145px;text-align: left;margin-right: 50px;}
+.contents h4{text-align:center;}
+.contents li{list-style: none;text-indent: 1em;}
+.contents img{float: right;}
+#addContent{float: right;}
+#itemsearch{margin-top: 30px; width:800px}
+#favorite tbody td{text-align: center;}
+#addCategory{float: right;margin-top:-20px;margin-right: 20px;}
+.yxx-category{margin-top:30px;}

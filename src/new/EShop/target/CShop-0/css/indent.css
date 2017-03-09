@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+#hwd-indent-wrapper{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+#yxx-indentHead{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/advancedSearch/selectgoods.png);}
+#yxx-indentContainer{
+    /* border:1px solid #ccc; */
+    width:900px;
+    margin:0 auto;
+    margin-top:20px;
+    /*box-shadow:5px 5px 10px #ccc;*/
+}
+
+.yxx-indentContent{
+	margin-bottom:50px;
+	overflow:hidden;}
+	
+.yxx-indentContent li{
+	min-width:300px;
+	max-width:300px;
+	float:left;
+	list-style:none;
+}
+	
+.yxx-indentLine1{
+	line-height:30px;
+	border-bottom:1px solid #000;
+	height:30px;}
+	
+.yxx-indentButton{
+	margin-top:1px;
+	width:100px;
+	height:26px;}
+	
+.yxx-indentQueren{
+	width:60px;
+	margin-top:-40px;
+	margin-left:780px;
+}
+	
+.yxx-indentGoods{
+	text-align:center;
+	width:618px;
+	min-height:80px;
+	float:left;}
+	
+.yxx-indentGoods tr{
+	height:89px;
+	width:618px;}
+	
+.yxx-indentName{
+	width:480px;
+	text-align:left;
+	text-indent:20px;
+	overflow:hidden;
+	text-overflow:ellipsis;}
+	
+.yxx-indentNum{
+	width:138px;
+	/* width:58px; */}
+	
+/* .yxx-indentPrice{
+	width:70px;}
+	 */
+.yxx-indentTotal{
+	padding-top:15px;
+	padding-bottom: 32767px;
+    margin-bottom: -32767px; 
+	text-align:center;
+	width:149px;
+	border:1px solid #000;
+	border-top:none;
+	float:left;}
+	
+.yxx-indentState{
+	padding-top:15px;
+	padding-bottom: 32767px;
+    margin-bottom: -32767px;
+	border-bottom:1px solid #000;
+	text-align:center;
+	width:129px;
+	float:left;}
+	
+#hwd-indent-wrapper .yxx-indentMoreinfo{
+	border: 0;
+	padding: 0;
+	margin-bottom:20px; 
+	margin-left:10px;
+	width: 924px;
+	height: 40px;
+	background: url(../resources/advancedSearch/ConvexMore.png) no-repeat;}
+
+.yxx-indentLine3{
+    overflow:hidden;
+    border-bottom:1px solid #000;
+    margin-bpttom:5px;}
+    
+#yxx-indentNogoods{
+	width:700px;
+	height:250px;
+	line-height:250px;
+	color:red;
+	margin:auto;
+	text-align:center;
+	font-size:36px;
+}
+
+#hwd-index-wrapper{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+#yxx-indentHead{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/myOrders.png);}

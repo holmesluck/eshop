@@ -1,0 +1,11 @@
+#hwd-personalInfo-wrapper{position: relative; width: 947px;margin: 0 auto 34px;border: 2px solid #665619;background: url(../resources/images/sidebar.png) repeat;}
+#hwd-personalInfo-header{width: 946px;height: 44px;margin: 2px auto;background: url(../resources/personalInformation.png);}
+#hwd-personalInfo-content{padding: 10px 20px;}
+#hwd-personalInfo-wrapper .nav-tabs{border:0;}
+#hwd-personalInfo-wrapper .nav-tabs>li>a{border:#333;background:transparent;}
+#hwd-personalInfo-change{border: 0;padding: 0; width: 71px;height: 29px;background: url(../resources/settlement/button-modification.png) no-repeat;}
+#hwd-personalInfo-submit{border: 0;padding: 0; width: 71px;height: 29px;background: url(../resources/button-finish.png) no-repeat;}
+#hwd-personalInfo-wrapper .nav-tabs>.active>a{color:#efefef;font-weight:bolder;background:#333;opcity:0.2;}
+#hwd-settlement-addAddress{float:right;border: 0;padding:0; float: right;margin:8px 30px 0 0;width: 78px;height: 29px;background: url(../resources/settlement/button-addAddress.png);}
+#hwd-changePassword-submit{border: 0;padding: 0; width: 71px;height: 29px;background: url(../resources/button-confirm.png) no-repeat;}
+#hwd-address .hwd-deleteAddress{border: 0;padding: 0; width: 71px;height: 29px;background: url(../resources/delete2.png) no-repeat;}

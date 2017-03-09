@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#yxx-commentContainer{
+	width:900px;
+	margin:auto;
+	border:1px solid #000;}
+	
+.yxx-commentContent{
+	padding:20px 0px;
+	border-bottom:1px dotted #000;
+	height:200px;}
+
+.yxx-commentLeftcontent{
+	text-align:center;
+	width:449px;
+	float:left;}
+
+.yxx-commentRightcontent{
+	width:449px;
+	float:left;}
+	
+.yxx-commentTextarea{
+	margin-top:10px;
+	width:350px;
+	height:150px;}
+	
+.yxx-commentSubmit{
+	margin-top:30px;
+	text-align:center;
+	height:50px;}
+	
+.yxx-commentSubmitcontrol{
+	width:100px;
+	height:30px;
+	border-radius:5px;
+	padding:2px 10px;}
+	
+.yxx-commentGoodsName{
+	width:250px;
+	margin:auto;
+	text-align:center;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#yxx-commentHead{
+	height:55px;
+	width:860px;
+	margin:auto;
+}
+
+#yxx-commentHead img{
+	width:110px;
+	height:45px;}
+	
+.star{position:relative; width:600px; margin-bottom:10px auto;}
+.star ul,.star span{float:left; display:inline; height:19px; line-height:19px;}
+.star ul{margin:0 10px;}
+.star li{ list-style:none; float:left; width:24px; cursor:pointer; text-indent:-9999px; background:url(../../20100707172710.png) no-repeat;}
+.star strong{color:#f60;padding-left:10px;}
+.star li.on{background-position:0 -28px;}
+.star p{position:absolute; top:20px; width:159px; height:60px; display:none; background:url(/imagesforcode/201206/icon.gif) no-repeat; padding:7px 10px 0;}
+.star p em{color:#f60; display:block; font-style:normal;}

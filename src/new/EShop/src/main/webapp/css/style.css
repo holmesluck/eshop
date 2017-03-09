@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+/*
+ *这里可以添加一些你个人在页面中经常用到的样式
+ *一般是以类的形式表示
+ *每个人把自己的样式放在自己对应的注释里面
+ *记得类的名字加上自己的姓名前缀，以免出现覆盖的现象
+*/
+/*常用样式 
+ *@author 黄伟铎
+ */
+a{text-decoration: none;color: #efefef;}
+a:hover{color: #efefef;}
+.clear{clear: both;}
+.red{color: red;}
+.hwd-must{}
+.hwd-input{width: 100px;height: 30px;}
+.hwd-p{font-size: 12px;line-height: 20px;}
+.hwd-test{display: inline-block; width: 16px;height: 16px;line-height: 20px;}
+.hwd-right{background: url(../resources/ico_warn.png) no-repeat 0 0;}
+.hwd-wrong{background: url(../resources/ico_warn.png) no-repeat 0 -50px;}
+.hwd-personalInfo-show{line-height: 30px;}
+.hwd-must{color: #f00;padding-right: 4px;font-style: normal; line-height: 10px;font-family: "SimSun";}
+.star1{width: 142px;height: 21px;background: url(../resources/advancedSearch/star1.png) no-repeat;}
+.star2{width: 142px;height: 21px;background: url(../resources/advancedSearch/star2.png) no-repeat;}
+.star3{width: 142px;height: 21px;background: url(../resources/advancedSearch/star3.png) no-repeat;}
+.star4{width: 142px;height: 21px;background: url(../resources/advancedSearch/star4.png) no-repeat;}
+.star5{width: 142px;height: 21px;background: url(../resources/advancedSearch/star5.png) no-repeat;}
+.backToTop {
+    display: none;
+    width: 18px;
+    line-height: 1.2;
+    padding: 5px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    _position: absolute;
+    right: 10px;
+    bottom: 100px;
+    _bottom: "auto";
+    cursor: pointer;
+    opacity: .6;
+    filter: Alpha(opacity=60);
+}
+/*END 黄伟铎*/
+
+
+/*常用样式 
+ *@author 尹茜霞
+ */
+.controlOverflow{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.controlOverflow:hover{
+	overflow:visible;
+}
+/*END 尹茜霞*
+
+/*
+ *这里是每个页面公共模块的CSS样式表
+ *一般情况下都不需要修改
+ *如需修改请联系原编写者
+ *@author 黄伟铎
+ */
+*{margin: 0;padding: 0;}
+body,html{height: 100%;background: #000 url(../resources/images/background.png) repeat;color: #ababab;}
+#body-wrapper{width: 1000px; margin: 0 auto;min-height: 100%;position: relative;}
+#header{}
+#hwd-logo{margin: 0; background: url(../resources/images/logo.png) no-repeat;text-indent: -1000em;width: 303px; height: 140px;float: left;}
+#hwd-pageHeader{float: right;width: 618px;height: 140px;position: relative;}
+#hwd-userHolder{float: right;}
+/*#hwd-userMenu{float: right;}*/
+#hwd-topMenu{float: left;list-style: none;margin-top: 20px;}
+#hwd-topMenu li{float: left;margin: 0 0 0 20px;color: #ededed;font-weight: bold;}
+#hwd-cartCount{display: inline-block; padding: 0 9px 15px;height: 15px;width: 20px;text-align: center; background: url(../resources/images/shoppingCart.png) no-repeat;}
+#hwd-goodsHolder{position: absolute;bottom: 10px;right: 11px; width: 214px;height: 34px;background: url(../resources/images/search1.png) no-repeat;}
+#hwd-goodsHolder-wrapper{padding: 3px;}
+#hwd-quickSearch{color: #ababab; width: 172px;height: 24px;background: url(../resources/images/search2.png) no-repeat;border: 0;margin-right: 3px;padding: 2px 0 2px 4px;}
+#hwd-quickSearch-submit{width: 29px;height: 28px;background: url(../resources/images/search4.png) no-repeat;border: 0;}
+
+/*#hwd-goodsSearch{}*/
+/*#hwd-shoppingCart{position: relative;float: right; background: url(../resources/cart_empty.png);width: 95px;height: 33px;cursor: pointer;}*/
+/*#hwd-cartCount{position: absolute;padding:3px 20px 10px 55px; font-weight: bold;width: 20px;text-align: center;}*/
+#hwd-navbar{height: 70px;background: url(../resources/images/navbar.png) no-repeat;width: 1000px;}
+/*#hwd-navbar-wrapper{width: 602px;}*/
+#hwd-navbar-list{list-style: none;width: 610px;padding: 0;margin: 0 189px 0 201px;}
+#hwd-navbar-list li{float: left;width: 122px;text-align: center;}
+#hwd-navbar-list li a{display: inline-block; color: #ffd200;font-size: 18px;font-weight: bolder;width: 122px;padding: 10px 0;}
+/*#hwd-navbar-list li a:hover{background: url(../resources/images/listBackground.jpg) no-repeat center bottom;}*/
+#footer{position: absolute;bottom: 0;text-align: center;width: 100%;line-height: 30px;font-size: 12px;}
+#main{padding-bottom: 100px;width: 1000px;margin-top: 10px;}
+#login{width:656px;background:url(../resources/images/background.png) repeat;}
+#register{width:656px;background:url(../resources/images/background.png) repeat;}
+#login .modal-header{width:656px;height:61px;background:url(../resources/login-regist/loginHead.png) no-repeat;border:0;padding:0;}
+#register .modal-header{width:656px;height:61px;background:url(../resources/login-regist/register.png) no-repeat;border:0;padding:0;}
+#hwd-login-submit{border:0;width:88px;height:39px;background:url(../resources/login-regist/button-login.png) no-repeat;padding:0;}
+#hwd-register{border:0;width:88px;height:39px;background:url(../resources/login-regist/button-register.png) no-repeat;padding:0;}
+#hwd-registerButton{border:0;width:88px;height:39px;background:url(../resources/login-regist/button-register.png) no-repeat;padding:0;}
+/*END 黄伟铎*/
